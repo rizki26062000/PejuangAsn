@@ -1,0 +1,187 @@
+/* navbar brands */
+
+.navbar-brand {
+  font-family: "Viga", sans-serif;
+  font-size: 32px;
+}
+
+.navbar-brand .nav-link {
+  color: white !important;
+}
+
+.tombol {
+  text-transform: uppercase;
+  border-radius: 40px;
+}
+
+/* kelas jumbtroon */
+
+.jumbotron {
+  background-image: url(https://image.freepik.com/free-photo/cropped-view-hands-typing-laptop_1262-3196.jpg);
+  background-size: cover;
+  height: 540px;
+  text-align: center;
+}
+
+/* info panel */
+
+/* myimg */
+.myimg {
+  width: 130px;
+  border-radius: 30px;
+}
+.myimgke2 {
+  width: 130px;
+  border-radius: 30px;
+}
+.myimgke3 {
+  width: 130px;
+  border-radius: 30px;
+}
+/* tutp img */
+.panel {
+  text-decoration: none;
+  color: black;
+}
+.info-panel {
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5);
+  margin-top: 10px;
+  border-radius: 30px;
+}
+
+/* akhir info panel */
+.display-4 {
+  padding-top: 20%;
+
+  padding-top: 30px;
+  text-shadow: 1px 1px 1px;
+  color: white;
+  font-family: viga;
+  margin-top: 150px;
+  margin-bottom: 30px;
+}
+
+.lead {
+  text-align: center;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px;
+  color: black;
+}
+
+/* ini bagian admin */
+
+.img-admin {
+  width: 400px;
+}
+
+/* tutup bagian admin */
+
+/* ini bagian tryout */
+
+.img-tryout {
+  width: 400px;
+}
+
+/* tutup bagian tryout */
+
+/* ini bagian pembahsan */
+.img-pembahasan {
+  width: 400px;
+}
+
+/* ini bagian tutup pembahasan */
+
+/* footer */
+
+.judul {
+  text-align: center;
+  font-weight: 200;
+}
+
+.figure img {
+  border-radius: 30px;
+  width: 90px;
+  margin-top: 120px;
+  text-align: center;
+  margin-left: 40px;
+}
+
+.mylife {
+  color: black;
+  text-align: center;
+}
+
+.footer {
+  text-align: center;
+}
+/* akhir footer */
+
+/* desktop version */
+/* latop */
+
+@media (min-width: 992px) {
+  .nav-link {
+    text-transform: uppercase;
+    margin-right: 25px;
+    color: white;
+  }
+  .nav-link:hover::after {
+    content: "";
+    display: block;
+    border-bottom: 3px solid green;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5;
+    margin-bottom: -15;
+  }
+
+  .jumbotron {
+    margin-top: -95px;
+    height: 640px;
+  }
+  .display-4 {
+    font-size: 64px;
+  }
+
+  .judul {
+    font-size: 34px;
+    text-align: center;
+    font-weight: 200;
+  }
+
+  .container-fluid .navbar-brand {
+    color: white;
+  }
+
+  /* ini bagian admin */
+  .img-admin {
+    float: left;
+  }
+  .judul-admin {
+    margin-top: 30px;
+  }
+
+  /* ini tutup admin */
+
+  /* ini bagian tryout */
+
+  .img-tryout {
+    float: right;
+  }
+
+  .judul-tryout {
+    margin-top: 30px;
+  }
+
+  /* ini bagian tutup tryout */
+
+  .img-pembahasan {
+    float: left;
+  }
+  .judul-pembahasan {
+    margin-top: 30px;
+  }
+
+  /* ini bagian pembahasan */
+}
+/* akhir dari desktop laptop */
